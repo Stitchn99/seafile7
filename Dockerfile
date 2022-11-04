@@ -6,3 +6,4 @@ COPY setup.sh /root
 RUN chmod +x setup.sh
 EXPOSE 80
 ENTRYPOINT /root/setup.sh && /bin/bash
+ENV TERM xterm
